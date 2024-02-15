@@ -5,4 +5,4 @@ Group Name: Team 6
 
 Team Members: alishaaa2000, ApellesKim, AlexWilss
 
-Project Manager: billjz2
+Project Manager: billjz2, speru4
