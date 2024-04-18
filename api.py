@@ -1,5 +1,6 @@
 import requests
 
+
 def get_data(food_list):
     data_list = []
     for food in food_list:
@@ -13,5 +14,6 @@ def get_data(food_list):
 
 # Example usage:
 foodList = ['1lb brisket and fries', 'apple', 'banana']
+
 result = get_data(foodList)
 print(result)

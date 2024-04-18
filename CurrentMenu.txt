@@ -4,49 +4,46 @@ Lunch
 
 Cinnasticks
 Chicken Sausage Pizza
-Halal Italian Beef Pizza
-Three Cheese Pizza
+Three Cheese Thin Crust Pizza
 Crushed Red Pepper
 Grated Parmesan Cheese
-Crinkle Cut Fries
 Hamburger Bun
-Malibu Burger
-Turkey Burgers
-Zesty Oven Roasted Broccoli
+Halal Beef Burger
+Spicy Black Bean Burger Patty
+Italian
 American Cheese Slice
 Bleu Cheese Crumbles
 Cheddar Cheese
 Provolone Cheese Slices
 Sliced Pepper Jack Cheese
 Sliced Swiss Cheese
+French Fries
 Cajun Aïoli
-Sweet Baby Ray's BBQ Sauce
 Dill Pickle Slices
 Green Leaf Lettuce
 Red Onion
-Shredded Lettuce
 Sliced Tomatoes
-4" French Sandwich Rolls
-Grilled Cheese Sandwich
-Halal Italian Beef au Jus
-Zesty Oven Roasted Broccoli
+Hot Dog Bun
+All-Beef Eisenberg Hot Dog
+Beyond Plant-Based Bratwurst
+Grilled Cheddar on Sourdough
+Italian
 French Fries
+Chicago-Style Hot Dog Toppings
 Turtle Pecan Cookies
-Creamy Cole Slaw
-Hummus
 Kale Caesar Salad
-Vegetable Barley Soup
-Pesto Sauce
+Vegetarian Twice Baked Potato Salad
+Tomato Soup
 Oreo Cookies Ice Cream Topping
 Rainbow Sprinkles
 Reese's Peanut Butter Pieces
 Snickers Ice Cream Topping
 Sliced Garlic Bread
+Shrimp
 Bacon Bits
 Chicken
 Diced Ham
 Italian Sausage
-Shrimp
 Veg Seared Tips Beyond
 Black Olives
 Broccoli Florets
@@ -55,47 +52,45 @@ Fresh Spinach
 Onions
 Shredded Carrot
 Sliced Peppers
-Penne Pasta
 Alfredo Sauce
 Marinara Sauce
-Pesto Sauce
-Minced Garlic
 
 Dinner
 
-Cinnasticks
 Chicken Sausage Pizza
-Halal Italian Beef Pizza
 Three Cheese Thin Crust Pizza
 Crushed Red Pepper
 Grated Parmesan Cheese
 Cornbread
-Breaded Catfish Filet
-Cajun Turkey Fillet
+BBQ Pork Rib Tips
+Halal Baked Chicken
+Macaroni & Cheese
 Fried Cabbage
-Jamaican Rice and Peas
+Whipped Potatoes
+Beef Gravy
+Ranch Sauce
 Sweet Baby Ray's BBQ Sauce
-Assorted Dinner Rolls
-West African Lentil & Couscous Salad
-Chicken Suya w/ Peanut Sauce
-Fried Okra
-Jamaican Rice and Peas
-Red Velvet Layer Cake
-Creamy Cole Slaw
-Hummus
+Cornbread
+Black-Eyed Peas w/Onions Chiles & Garlic
+Halal Smoked BBQ Chicken Thighs
+Polish Sausage w/Peppers&Onion
+Fried Cabbage
+Whipped Potatoes
+Seasoned Chicken Gravy
+Peach Pie
 Kale Caesar Salad
-Vegetable Barley Soup
-Pesto Sauce
+Vegetarian Twice Baked Potato Salad
+Tomato Soup
 Oreo Cookies Ice Cream Topping
 Rainbow Sprinkles
 Reese's Peanut Butter Pieces
 Snickers Ice Cream Topping
 Sliced Garlic Bread
+Shrimp
 Bacon Bits
 Chicken
 Diced Ham
 Italian Sausage
-Shrimp
 Veg Seared Tips Beyond
 Black Olives
 Broccoli Florets
@@ -104,11 +99,8 @@ Fresh Spinach
 Onions
 Shredded Carrot
 Sliced Peppers
-Penne Pasta
 Alfredo Sauce
 Marinara Sauce
-Pesto Sauce
-Minced Garlic
 
 Breakfast
 
