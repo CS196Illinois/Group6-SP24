@@ -15,7 +15,5 @@ def get_data(food_list):
 # Example usage:
 foodList = ['1lb brisket and fries', 'apple', 'banana']
 
-
-
 result = get_data(foodList)
 print(result)

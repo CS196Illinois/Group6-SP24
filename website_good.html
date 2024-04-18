@@ -1,0 +1,135 @@
+<!doctype html>
+
+<html>
+    <head>
+        <script type="text/javascript" src="websiteJavaScript.js"></script>
+        <meta charset="utf-8">
+
+        <title>Blank template</title>
+
+        <!-- Load external CSS styles -->
+        <style>
+            /* Place your CSS styles in this file */
+            
+            body {
+                background-color: cornflowerblue;
+            }
+            
+            h1 {
+                text-align: center;
+                font-family: "Source Sans Pro", sans-serif;
+                font-weight: normal;
+                color: coral;
+            }
+            p {
+                text-align: center;
+                font-size: larger;
+            }
+            
+            img {
+                position: absolute;
+                top: 1;
+                right: 0;
+            }
+            
+            h2 {
+                text-align: center;
+            }
+            
+            .meal {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 25px;
+            }
+            .dineop {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 25px;
+            }
+            
+            .retailop {
+                display:flex;
+                justify-content:center;
+                align-items: center;
+                margin-bottom: 25px;
+            }
+            
+            .button {
+                display: block;
+                margin: auto;
+                text-align: center;
+                background-color: coral;
+                border-radius: 10cm;
+                color: blue;
+                padding: 100px 40px;
+                font-size: 31px;
+            
+            }
+            
+            </style>
+            
+
+    </head>
+
+    <body>
+        <h1>Illini Nutrition</h1>
+        <p>Create your customizable meal plan!</p>
+        <h2>Please enter the specified information below</h2>
+        
+        <img src="https://i.pinimg.com/474x/af/95/e1/af95e1d2f97d517c2af54995a06d9c1b.jpg" alt="Alma" width="300" height="350"> 
+        <form action="javascript:submit()">
+
+        <label for="date">Scheduled date:</label><br>
+        <input type="text" id="date" name="date"><br><br>
+
+        <select id ="meal" class="meal"> ==$0
+            <option value="0" id="0">(Select meal)</option>
+            <option value="Breakfast" id="brekky">Breakfast</option>
+            <option value="Lunch" id="lunch">Lunch</option>
+            <option value = "Dinner" id="dinner">Dinner</option>
+        </select>
+
+        <select id ="dine" class="dineop"> == $0
+            <option value="0" id="0">(Dining Hall Location)</option>
+            <option value="PAR Dining Hall" id="2">PAR Dining Hall</option>
+            <option value="Lincoln/Allen Dining Hall" id="5">Lincoln/Allen Dining Hall</option>
+            <option value="ISR Dining Center" id="3">ISR Dining Center</option>
+            <option value="Kosher Kitchen" id="23">Kosher Kitchen</option>
+            <option value="Ikenberry Dining Center" id="1">Ikenberry Dining Center</option>
+            <option value="Field of Greens" id="12">Field of Greens</option>
+        </select>
+
+        <select id ="retail" class="retailop" style="float:center;"> == $0
+            <option value="0" id="0">(Retail Location)</option>
+            <option value="57 North" id="7">57 North</option>
+            <option value="Caffeinator" id="9">Caffeinator</option>
+            <option value="Urbana South Market" id="14">Urbana South Market</option>
+            <option value="TerraByte" id="18">TerraByte</option>
+            <option value="InfiniTEA" id="30">InfiniTEA</option>
+            <option value="Everybody Eats" id="35">Everybody Eats</option>
+        </select>
+        
+
+        
+        <label for="calories">Desired calories:</label><br>
+            <input type="text" id="calories" name="calories"><br><br>
+
+        <label for="protein">Desired protein:</label><br>
+            <input type="text" id="protein" name="protein"><br><br>
+
+        <label for="carbs">Desired carbs:</label><br>
+            <input type="text" id="carbs" name="carbs"><br><br>
+
+        <label for="fats">Desired fats:</label><br>
+            <input type="text" id="fats" name="fats"><br><br>
+        
+            <button type = "submit" class="button">Generate!</button>
+            </form>
+    </body>
+
+
+</html>
+
+
