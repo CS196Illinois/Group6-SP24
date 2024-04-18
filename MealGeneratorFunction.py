@@ -1,5 +1,10 @@
 import random
 
+from flask import jsonify
+import flask
+#import DinningHallData
+
+
 
 food_items = [
     {"name": "Chicken Breast", "calories": 230, "protein": 30, "carbohydrates": 0, "fats": 5},
@@ -16,7 +21,12 @@ food_items = [
 input_protein = int(input("Please enter your protein")) 
 input_carbs = int(input("Please enter your carbs"))
 input_fats = int(input("Please enter your fats")) 
-print(input_fats)
+
+fats_upper_bound = input_fats + 10 
+fats_lower_bound = input_fats - 10
+
+carbs_upper_bound = input_carbs + 10
+carbs_lower_bound = input_carbs - 10
 
 def generate_meal_plan(food_items, input_fats):
     """Generate a meal plan with random selection of food items."""
@@ -27,21 +37,32 @@ def generate_meal_plan(food_items, input_fats):
 
     # Continue selecting food items until the total fats content is within the specified limit
     
-    while input_fats - 10 > fats <= input_fats and input_protein - 10 > protein < int(input_protein) and input_carbs - 10 > carbs < int(input_carbs):  # Assuming a buffer of 5g of fats
+    while fats <= fats_upper_bound or carbs <= carbs_upper_bound:  # Assuming a buffer of 5g of fats
         selected_item = random.choice(food_items)
         
         # Check if adding the selected item would exceed the fats limit
-        if fats + selected_item["fats"] < input_fats and carbs + selected_item["carbohydrates"] < input_carbs  and protein + selected_item["protein"] < input_protein:
+        if fats + selected_item["fats"] < input_fats and carbs + selected_item["carbohydrates"] < input_carbs and protein + selected_item["protein"]:
             meal_plan.append(selected_item)
             fats += selected_item["fats"]
             carbs += selected_item["carbohydrates"]
             protein += selected_item["protein"]
-        elif fats + selected_item["fats"] > input_protein - 10 or carbs + selected_item["carbohydrates"] > input_carbs - 10 or protein + selected_item["protein"] > input_protein - 10:
-            break; 
+
+        elif (fats + selected_item["fats"] < input_fats + 10 or fats + selected_item["fats"] > input_fats - 10) and (
+            carbs + selected_item["carbohydrates"] < input_carbs + 10 or carbs + selected_item["carbohydrates"] > input_carbs - 10) and (
+            protein + selected_item["carbohydrates"] < input_protein + 10 or protein + selected_item["carbohydrates"] > input_protein - 10):
+            meal_plan.append(selected_item)
+            print("hi")
+            fats += selected_item["fats"]
+            carbs += selected_item["carbohydrates"]
+            protein += selected_item["protein"]
+
+            break
+
+
           # Exit the loop if adding the item would exceed the fats limit
     
 
-    return meal_plan   
+    return meal_plan #flask.jsonify({"plan": meal_plan})   
     
 
 #Displaying the generated meal plan -->  
@@ -68,3 +89,5 @@ for i in range(num_meal_plans):
     print(f"Meal Plan {i+1}:")
     meal_plan = generate_meal_plan(food_items, input_fats)
     display_meal_plan(meal_plan)
+
+#flask.jsonify(meal_plan)

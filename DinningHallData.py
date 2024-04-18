@@ -3,6 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from bs4 import BeautifulSoup
 import inquirer
+import api
+from api import get_data
 
 inquiry = [
   inquirer.List('Location',
@@ -94,9 +96,12 @@ for paragraph in breakfast_paragraphs:
     breakfast_menu_items.extend(items)
 
 
-print(dinner_menu_items)
-print(lunch_menu_items)
+#print(dinner_menu_items)
+#print(lunch_menu_items)
 print(breakfast_menu_items)
+
+result = get_data(breakfast_menu_items)
+print(result)
 
 with open('CurrentMenu.txt', 'w') as file:
     file.write(location + '\n' + '\n')
