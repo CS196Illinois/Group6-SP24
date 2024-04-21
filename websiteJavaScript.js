@@ -1,6 +1,6 @@
 var url = "file:///Users/speedyburgers/GitHib/Group6-SP24/website_good.html";
 
-
+var data;
 
 function submit() {
     var calorieData = document.getElementById("calories").value;
@@ -39,5 +39,13 @@ function submit() {
           "Content-type": "application/json; charset=UTF-8"
         }}).then(data => {
           return data.json(); // the meal plan should be in data.json()
+        }).then(response => {
+          data = response;
+          toput();
         });
       }
+
+  function toput() {
+    var div = document.getElementById('output');
+    div.innerHTML = JSON.stringify(data);
+  }
